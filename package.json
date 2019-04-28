@@ -8,9 +8,6 @@
   "license": "MIT",
   "private": false,
   "peerDependencies": {
-    "eslint": ">= 3"
-  },
-  "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
