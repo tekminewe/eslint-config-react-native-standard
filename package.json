@@ -1,7 +1,8 @@
 {
   "name": "eslint-config-react-native-standard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standard eslint config for react native project",
+  "keywords": ["eslint", "eslint config", "react native", "flowtype", "jest", "react hook", "react"],
   "main": "index.js",
   "repository": "https://github.com/tekminewe/eslint-config-react-native-standard.git",
   "author": "Ewe Tek Min <ewe.tekmin@outlook.com>",
