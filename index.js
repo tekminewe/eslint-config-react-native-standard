@@ -31,4 +31,15 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
   },
+  settings: {
+    'import/resolver': {
+      'node': {
+        'extensions': [
+          '.js',
+          '.android.js',
+          '.ios.js'
+        ]
+      },
+    },
+  },
 };
