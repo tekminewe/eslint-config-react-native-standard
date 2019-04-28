@@ -21,3 +21,11 @@ extends: [
   'eslint-config-react-native-standard',
 ],
 ```
+3. Update scripts in `package.json`
+```
+"scripts": {
+  ...
+  "eslint": "node_modules/.bin/eslint \"./**/*.js\""
+},
+```
+4. Run `yarn eslint` to lint your codes
