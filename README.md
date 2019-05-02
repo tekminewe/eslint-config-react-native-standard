@@ -15,7 +15,7 @@ A hussle free eslint config setup for standard React Native project
 yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-native
 ```
 
-2. Use the config in `eslintrc.js`
+2. Use the config in `.eslintrc.js`
 ```
 extends: [
   'eslint-config-react-native-standard',
