@@ -17,9 +17,11 @@ yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-flowtype esli
 
 2. Use the config in `.eslintrc.js`
 ```
-extends: [
-  'eslint-config-react-native-standard',
-],
+module.exports = {
+  extends: [
+    'eslint-config-react-native-standard',
+  ],
+}
 ```
 3. Update scripts in `package.json`
 ```
