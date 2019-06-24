@@ -38,7 +38,9 @@ module.exports = {
         'extensions': [
           '.js',
           '.android.js',
-          '.ios.js'
+          '.ios.js',
+          '.ts',
+          '.tsx',
         ]
       },
     },
