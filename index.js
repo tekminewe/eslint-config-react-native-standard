@@ -4,7 +4,7 @@ module.exports = {
     '@react-native-community',
   ],
   globals: {
-    'jest': {},
+    jest: true,
   },
   // parserOptions: {
   //   ecmaFeatures: {
