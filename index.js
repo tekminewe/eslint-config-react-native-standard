@@ -6,6 +6,13 @@ module.exports = {
   globals: {
     jest: true,
   },
+  rules: {
+    quotes: [
+      'error',
+      'single',
+      { 'avoidEscape': true, 'allowTemplateLiterals': false }
+    ]
+  }
   // parserOptions: {
   //   ecmaFeatures: {
   //     jsx: true,
