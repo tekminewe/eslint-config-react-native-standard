@@ -3,9 +3,9 @@ module.exports = {
     'airbnb',
     '@react-native-community',
   ],
-  // globals: {
-  //   '__DEV__': true,
-  // },
+  globals: {
+    'jest': {},
+  },
   // parserOptions: {
   //   ecmaFeatures: {
   //     jsx: true,
