@@ -10,8 +10,7 @@ module.exports = {
     'plugin:react-native/all',
   ],
   globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+    '__DEV__': true,
   },
   parserOptions: {
     ecmaFeatures: {
