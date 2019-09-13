@@ -8,6 +8,7 @@ module.exports = {
     shallow: true,
   },
   rules: {
-    'prettier/prettier': ['error', { singleQuote: true, trailingComma: 'all' }]
+    'prettier/prettier': ['error', { singleQuote: true, trailingComma: 'all' }],
+    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }]
   },
 };
