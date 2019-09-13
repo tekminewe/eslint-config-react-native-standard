@@ -2,7 +2,15 @@
   "name": "eslint-config-react-native-standard",
   "version": "0.1.3",
   "description": "Standard eslint config for react native project",
-  "keywords": ["eslint", "eslintconfig", "react native", "flowtype", "jest", "react hook", "react"],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "react native",
+    "flowtype",
+    "jest",
+    "react hook",
+    "react"
+  ],
   "main": "index.js",
   "repository": "https://github.com/tekminewe/eslint-config-react-native-standard.git",
   "author": "Ewe Tek Min <ewe.tekmin@outlook.com>",
@@ -12,7 +20,9 @@
     "eslint": "^5.16.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1"
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
