@@ -39,6 +39,13 @@ module.exports = {
       plugins: [
         '@typescript-eslint/eslint-plugin'
       ],
+      rules: {
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {argsIgnorePattern: '^_'},
+        ],
+        'no-unused-vars': 'off',
+      },
     },
     {
       files: [
