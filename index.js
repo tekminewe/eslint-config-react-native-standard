@@ -63,6 +63,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'error',
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx', '.tsx'] }],
     'no-underscore-dangle': ['error', { 'allow': ['__DEV__'] }],
+    'react/jsx-props-no-spreading': 0,
   },
   settings: {
     'import/resolver': {
