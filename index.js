@@ -1,15 +1,60 @@
 module.exports = {
   extends: [
-    // 'airbnb',
-    '@react-native-community',
+    'airbnb',
+    'plugin:jest/recommended',
+    'plugin:react-native/all',
   ],
   globals: {
-    jest: true,
-    shallow: true,
+    __DEV__: true,
   },
+  parserOptions: {
+    sourceType: 'module',
+  },
+  plugins: [
+    'react',
+    'jest',
+    'flowtype',
+    'react-hooks',
+  ],
+  overrides: [
+    {
+      files: [
+        '*.js'
+      ],
+      parser: 'babel-eslint',
+      plugins: [
+        'flowtype'
+      ],
+      extends: [
+        'plugin:flowtype/recommended'
+      ],
+    },
+    {
+      files: [
+        '*.ts',
+        '*.tsx'
+      ],
+      parser: '@typescript-eslint/parser',
+      plugins: [
+        '@typescript-eslint/eslint-plugin'
+      ],
+    },
+    {
+      files: [
+        '*.{spec,test}.{js,ts,tsx}',
+        '**/__{mocks,tests}__/**/*.{js,ts,tsx}',
+      ],
+      env: {
+        jest: true,
+        'jest/globals': true,
+      },
+    },
+  ],
   rules: {
-    'prettier/prettier': ['error', { singleQuote: true, trailingComma: 'all' }],
-    // 'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }]
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
+    // 'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
+    // 'no-underscore-dangle': ['error', { 'allow': ['__DEV__'] }],
   },
   // settings: {
   //   'import/resolver': {
