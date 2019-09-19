@@ -61,7 +61,7 @@ module.exports = {
   rules: {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
-    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
+    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx', '.tsx'] }],
     'no-underscore-dangle': ['error', { 'allow': ['__DEV__'] }],
   },
   settings: {
