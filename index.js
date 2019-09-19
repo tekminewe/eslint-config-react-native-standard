@@ -6,6 +6,7 @@ module.exports = {
   ],
   globals: {
     __DEV__: true,
+    fetch: false,
   },
   parserOptions: {
     sourceType: 'module',
@@ -56,17 +57,17 @@ module.exports = {
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
     'no-underscore-dangle': ['error', { 'allow': ['__DEV__'] }],
   },
-  // settings: {
-  //   'import/resolver': {
-  //     'node': {
-  //       'extensions': [
-  //         '.js',
-  //         '.android.js',
-  //         '.ios.js',
-  //         '.ts',
-  //         '.tsx',
-  //       ]
-  //     },
-  //   },
-  // },
+  settings: {
+    'import/resolver': {
+      'node': {
+        'extensions': [
+          '.js',
+          '.android.js',
+          '.ios.js',
+          '.ts',
+          '.tsx',
+        ]
+      },
+    },
+  },
 };
