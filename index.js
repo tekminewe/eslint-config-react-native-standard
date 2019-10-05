@@ -61,9 +61,10 @@ module.exports = {
   rules: {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
+    'react-native/no-raw-text': 0,
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx', '.tsx'] }],
-    'no-underscore-dangle': ['error', { 'allow': ['__DEV__'] }],
     'react/jsx-props-no-spreading': 0,
+    'no-underscore-dangle': ['error', { 'allow': ['__DEV__'] }],
   },
   settings: {
     'import/resolver': {
