@@ -20,17 +20,17 @@
     "eslint": "^5.16.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.0",
-    "@typescript-eslint/parser": "^2.3.0",
-    "babel-eslint": "10.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "babel-eslint": "10.0.3",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-flowtype": "4.3.0",
-    "eslint-plugin-jest": "22.4.1",
-    "eslint-plugin-react-hooks": "^2.0.1",
-    "eslint-plugin-react-native": "3.7.0"
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-flowtype": "4.6.0",
+    "eslint-plugin-jest": "23.6.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-react-native": "3.8.1"
   },
   "devDependencies": {
     "eslint": ">=6.1.0"
