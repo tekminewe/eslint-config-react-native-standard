@@ -65,6 +65,16 @@ module.exports = {
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx', '.tsx'] }],
     'react/jsx-props-no-spreading': 0,
     'no-underscore-dangle': ['error', { 'allow': ['__DEV__'] }],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        'js': 'never',
+        'jsx': 'never',
+        'ts': 'never',
+        'tsx': 'never'
+      }
+   ]
   },
   settings: {
     'import/resolver': {
